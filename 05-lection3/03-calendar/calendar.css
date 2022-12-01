@@ -5,6 +5,7 @@
 	border-radius: 8px;
 	width: 304px; /*del*/
 	height: 324px; /* del */
+
 }
 .calendar__title {
 	font-family: 'Inter';
@@ -15,4 +16,8 @@
 	color: var(--dark-blue);
 	display: flex;
 	justify-content: center;
+	padding: 0;
+	margin-top: 28px;
+	margin-left: 3px; /* (88-83) /2  */
+	margin-bottom: 24px;
 }
