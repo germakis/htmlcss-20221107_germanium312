@@ -3,9 +3,20 @@
 	background: #FFFFFF;
 	border: 1px solid var(--grey-3);
 	border-radius: 8px;
-	width: 304px; /*del*/
-	height: 324px; /* del */
+	width: 304px; /*del */
+	height: 324px; /*del*/
 
+}
+.calendar__wrapper {
+	padding-bottom: 100%;
+	position: relative;
+}
+.calendar__inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 .calendar__title {
 	font-family: 'Inter';
